@@ -1,0 +1,39 @@
+@gabrielemong ➜ /workspaces/lezione-bash03-mongelli-gabriele (main) $ find esercizi/ -name *.java
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+@gabrielemong ➜ /workspaces/lezione-bash03-mongelli-gabriele (main) $ find esercizi/ -type d
+esercizi/
+esercizi/progetto
+esercizi/progetto/assets
+esercizi/progetto/assets/css
+esercizi/progetto/assets/img
+esercizi/progetto/docs
+esercizi/progetto/config
+esercizi/progetto/build
+esercizi/progetto/src
+esercizi/progetto/src/test
+esercizi/progetto/src/utils
+esercizi/progetto/src/main
+esercizi/dati
+esercizi/log
+esercizi/sandbox
+
+@gabrielemong ➜ /workspaces/lezione-bash03-mongelli-gabriele (main) $ find esercizi/ -iname *config*
+esercizi/progetto/config
+esercizi/progetto/src/utils/Config.java
+
+@gabrielemong ➜ /workspaces/lezione-bash03-mongelli-gabriele (main) $ find esercizi/ -name *.java -exec echo {} \;
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+
+1. `^#` → righe che iniziano con...?  con #
+2. `[0-9]+` → che tipo di testo cattura?  qualsiasi ripetizione di numeri
+3. `\.java$` → righe che finiscono con...?  .java
+4. `^$` → che tipo di righe? le righe vuote
+5. `[A-Z][a-z]+` → che tipo di parole? una maiuscola e dietro più lettere minuscole (Aaaaa)
