@@ -1,0 +1,8 @@
+esercizi/progetto/assets/css/style.css:20:/* TODO: aggiungere stile responsive */
+esercizi/progetto/src/test/TestApp.java:7:        // TODO: scrivere test per avvio applicazione
+esercizi/progetto/src/test/TestApp.java:12:        // TODO: verificare caricamento configurazione
+esercizi/progetto/src/utils/Logger.java:22:        // TODO: implementare scrittura su file
+esercizi/progetto/src/utils/Config.java:7:    // TODO: implementare parsing del file di configurazione
+esercizi/progetto/src/main/Server.java:8:    // TODO: aggiungere gestione connessioni multiple
+esercizi/progetto/src/main/Server.java:13:        // TODO: implementare protocollo HTTP
+esercizi/progetto/src/main/App.java:13:        // TODO: implementare menu principale

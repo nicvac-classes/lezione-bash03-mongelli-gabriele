@@ -184,7 +184,7 @@ Non confonderle! Quando usi `find -name "*.txt"`, il `*` è una wildcard. Quando
 Questo è un esercizio teorico. Per ciascun pattern, scrivi cosa matcherebbe:
 
 1. `^#` → righe che iniziano con...?
-2. `[0-9]+` → che tipo di testo cattura?
+2. `[0-9]+` → che tipo di testo cattura? 
 3. `\.java$` → righe che finiscono con...?
 4. `^$` → che tipo di righe?
 5. `[A-Z][a-z]+` → che tipo di parole?
